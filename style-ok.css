@@ -77,16 +77,33 @@ body{
 /**Picture content**/
 
 
-#picture {
-    background-image: url('images/image-header-desktop.jpg');
+#picture-mob {
+    /* background-image: url('images/image-header-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: contrast(160%);
-    filter: brightness(75%);
+    filter: brightness(75%); */
+    position: relative;
     border-radius: 0 10px 10px 0;
-    }
+}
 
-.picture-1 {
+#picture-mob img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#picture-mob::after{ 
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: hsla(277, 64%, 61%, 0.5);
+}
+
+/* .picture-1 {
     background-color: hsla(277, 64%, 61%, 0.5);
     min-width: 100%;
     height: 100%;
@@ -98,4 +115,4 @@ body{
     #picture-mob {
         display: none;
     }
-}
+} */
