@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/hemanuela/stats-preview-card-component-main/blob/main/design/desktop-preview.jpg)
 
 
 
