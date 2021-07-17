@@ -26,7 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
+<<<<<<< HEAD
 ![](./screenshot.jpg)
+=======
+![](https://github.com/hemanuela/stats-preview-card-component-main/blob/main/design/desktop-preview.jpg)
+>>>>>>> 0d896498dfb681b9b970ce7c99725b61c34ccd71
 
 
 
